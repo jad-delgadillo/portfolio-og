@@ -69,9 +69,17 @@ const Landing = () => {
               code
             </span>{" "}
           </span>{" "}
-          <span className="relative group-hover:w-full hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
+          <span className="relative group-hover:w-full group hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
             {" "}
-            to create art
+            to
+            <span className="relative group-hover:w-full group-hover:text-yellow-400 hover:underline-offset-2 transition-all ease-out duration-300">
+              {" "}
+              create
+            </span>{" "}
+            <span className="relative group-hover:w-full hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
+              {" "}
+              art
+            </span>{" "}
           </span>{" "}
           <span className="relative group group-hover:w-full hover:text-blue-400 transition-all ease-out duration-300">
             {" "}
