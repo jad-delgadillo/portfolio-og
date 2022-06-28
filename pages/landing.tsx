@@ -5,14 +5,18 @@ import Link from "next/link";
 const Landing = () => {
   return (
     <div className="flex flex-col max-w-7xl min-h-screen items-center justify-center m-auto">
-      <div className="flex flex-col justify-start w-screen max-w-7xl ">
-        <a href="#_" className="w-[60px] ml-10 p-1">
+      <div className="flex flex-col md:justify-start w-screen max-w-7xl ">
+        <a
+          href="#_"
+          className="md:w-[80px] w-[100px] hover:ring-1 ring-indigo-400 hover:border-indigo-400 ring-offset-4 transition-all ml-7 md:ml-10 p-5 border border-black rounded-full hover:scale-[110%] group"
+        >
           <Image
             alt="logo"
             src={"/assets/logo.png"}
             width={50}
             height={50}
             layout="responsive"
+            className=""
           />
         </a>
       </div>
