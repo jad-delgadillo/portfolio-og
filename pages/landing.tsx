@@ -33,7 +33,7 @@ const Landing = () => {
         </a>
       </div>
       <div className="flex flex-row ">
-        <nav className="md:flex flex-col max-w-2xl w-60 pt-20 mr-20 text-right hidden">
+        <nav className="md:flex flex-col max-w-2xl w-64 pt-20 mr-20 text-right hidden">
           <a href="#_" className="relative group">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-16 transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
