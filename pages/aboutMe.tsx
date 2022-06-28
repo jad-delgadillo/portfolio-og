@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export const AboutMe = () => {
+const AboutMe = () => {
   return (
     <div className="flex flex-col min-h-screen w-screen m-auto justify-center items-center bg-amber-50">
       <div className="flex md:flex-row flex-col m-auto max-w-7xl w-screen items-center justify-center min-h-screen md:mt-0 mt-10 p-7">
@@ -52,3 +52,4 @@ export const AboutMe = () => {
     </div>
   );
 };
+export default AboutMe;
