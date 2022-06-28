@@ -18,7 +18,7 @@ function Projects() {
         projects
       </h1>
       <h1>
-        Here are some projects I have the fortune to have participated composing
+        Here are some projects I had the fortune to have participated composing
         and producing the music for.
       </h1>
       <div className="flex md:flex-row flex-col">{posters}</div>
