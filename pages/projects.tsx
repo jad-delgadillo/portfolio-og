@@ -6,7 +6,7 @@ import data from "../src/dataCamapigns";
 function Projects() {
   const posters = data.map((item) => {
     return (
-      <div className="py-16 p-10 text-center hover:scale-[105%] transition-all">
+      <div className="py-16 p-10 text-center hover:scale-[102%] transition-all">
         <MusicCampaigns key={item.id} item={item} />
       </div>
     );
