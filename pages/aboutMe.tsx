@@ -15,7 +15,7 @@ const AboutMe = () => {
           />
         </div>
 
-        <div className="flex flex-col md:p-0 p-10">
+        <div className="flex flex-col md:p-0 p-2">
           <h1 className="text-xl font-medium">My names is Jorge Delgadillo</h1>
           <p className="font-extralight text-justify">
             I'm from the city of{" "}

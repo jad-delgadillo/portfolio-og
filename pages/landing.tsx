@@ -4,8 +4,20 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col max-w-7xl min-h-screen items-center justify-center m-auto">
+    <div className="flex flex-col max-w-7xl min-h-screen md:items-center md:justify-center pt-32 md:pt-0 m-auto">
       <div className="flex flex-col md:justify-start w-screen max-w-7xl ">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute w-full h-full object-cover"
+        >
+          <source
+            src="/assets/videos/ntgeo.mp4"
+            type="video/mp4; codecs=hvc1"
+          />
+        </video>
         <a
           href="#_"
           className="md:w-[80px] w-[100px] hover:ring-1 ring-indigo-400 hover:border-indigo-400 ring-offset-4 transition-all ml-7 md:ml-10 p-5 border border-black rounded-full hover:scale-[110%] group"
