@@ -12,7 +12,7 @@ const Landing = () => {
         >
           <Image
             alt="logo"
-            src={"/assets/logo.png"}
+            src={"/assets/ALDEM-Logo.png"}
             width={50}
             height={50}
             layout="responsive"
