@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import MusicCampaigns from "../components/MusicCampaigns";
+import MusicCampaigns from "../components/musicCampaigns";
 import data from "../src/dataCamapigns";
 
 function Projects() {
