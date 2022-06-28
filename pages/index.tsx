@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import MusicCampaigns from "../components/MusicCampaigns";
 import AboutMe from "./aboutMe";
 import Landing from "./landing";
 import Projects from "./projects";
