@@ -3,7 +3,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col min-h-screen w-screen m-auto justify-center items-center bg-slate-100">
+    <div className="flex flex-col min-h-screen w-screen m-auto justify-center items-center bg-amber-50">
       <div className="flex md:flex-row flex-col m-auto max-w-7xl w-screen items-center justify-center min-h-screen md:mt-0 mt-10 p-7">
         <div className="block lg:w-[5000px] md:w-[6000px] w-[80vw] md:pr-10">
           <Image
