@@ -25,19 +25,19 @@ const Landing = () => {
           <a href="#_" className="relative group">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-16 transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
-              Projects
+              projects
             </span>
           </a>
           <a href="#_" className="relative group my-10">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-20 transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
-              About me
+              about me
             </span>
           </a>
           <a href="#_" className="relative group">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-[66px] transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
-              Contact
+              contact
             </span>
           </a>
         </nav>
