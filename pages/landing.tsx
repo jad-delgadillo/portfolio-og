@@ -61,9 +61,13 @@ const Landing = () => {
               I'm a Music Producer{" "}
             </span>
           </a>
-          <span className="relative group-hover:w-full hover:text-red-600 transition-all ease-out duration-300">
+          <span className="relative group-hover:w-full  group hover:text-red-400 transition-all ease-out duration-300">
             {" "}
-            that loves to code
+            that loves to
+            <span className="relative group-hover:text-red-500 transition-all ease-out duration-300">
+              {" "}
+              code
+            </span>{" "}
           </span>{" "}
           <span className="relative group-hover:w-full hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
             {" "}
@@ -76,7 +80,7 @@ const Landing = () => {
               solve
             </span>{" "}
             real world{" "}
-            <span className="group-hover:text-blue-500 transition-all  ring-red-500 rounded-xl ease-out duration-300">
+            <span className="group-hover:text-blue-500 transition-all rounded-xl ease-out duration-300">
               problems.
             </span>
           </span>{" "}
