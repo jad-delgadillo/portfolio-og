@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const MusicCampaigns = (props: any) => {
   return (
@@ -13,6 +14,7 @@ const MusicCampaigns = (props: any) => {
         className="rounded-2xl"
       />
       <div className="p-1 mt-2">{props.item.title}</div>
+      <div className="text-sm">{props.item.description}</div>
     </div>
   );
 };

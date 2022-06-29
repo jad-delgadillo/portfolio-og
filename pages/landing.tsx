@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
@@ -12,10 +13,10 @@ const Landing = () => {
           muted
           playsInline
           className="absolute w-full h-full object-cover"
-        >
+          >
           <source
-            src="/assets/videos/ntgeo.mp4"
-            type="video/mp4; codecs=hvc1"
+          src="/assets/videos/ntgeo.mp4"
+          type="video/mp4; codecs=hvc1"
           />
         </video> */}
         <a
@@ -34,13 +35,13 @@ const Landing = () => {
       </div>
       <div className="flex flex-row ">
         <nav className="md:flex flex-col max-w-2xl w-64 pt-20 mr-20 text-right hidden">
-          <a href="#_" className="relative group">
+          <a href="#projects_section" className="relative group">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-16 transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
               projects
             </span>
           </a>
-          <a href="#_" className="relative group my-10">
+          <a href="#about_me" className="relative group my-10">
             <span className="absolute w-0 h-[1px] top-5 group-hover:w-20 transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
               about me
@@ -58,7 +59,7 @@ const Landing = () => {
             <span className="absolute hidden md:flex w-0 h-full group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full md:hover:text-white hover:text-indigo-500 transition-all ease-out duration-300 ">
               {" "}
-              I'm a Music Producer{" "}
+              I'm a Storyteller{" "}
             </span>
           </a>
           <span className="relative group-hover:w-full  group hover:text-red-400 transition-all ease-out duration-300">
@@ -74,11 +75,11 @@ const Landing = () => {
             to
             <span className="relative group-hover:w-full group-hover:text-yellow-400 hover:underline-offset-2 transition-all ease-out duration-300">
               {" "}
-              create
+              express
             </span>{" "}
             <span className="relative group-hover:w-full hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
               {" "}
-              art
+              myself
             </span>{" "}
           </span>{" "}
           <span className="relative group group-hover:w-full hover:text-blue-400 transition-all ease-out duration-300">

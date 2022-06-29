@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+
 import AboutMe from "./aboutMe";
 import Landing from "./landing";
 import Projects from "./projects";
@@ -9,8 +10,12 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col  min-h-screen w-screen m-auto justify-center items-center bg-amber-50">
       <Landing />
-      <Projects />
-      <AboutMe />
+      <section id="projects_section">
+        <Projects />
+      </section>
+      <section id="about_me">
+        <AboutMe />
+      </section>
     </div>
   );
 };
