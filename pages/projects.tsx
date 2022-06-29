@@ -38,16 +38,16 @@ function Projects() {
     <motion.div
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: 0.1 }}
       transition={{
         duration: 0.1,
 
         delay: 0.1,
       }}
       variants={imageAnimate}
-      className="flex flex-col min-h-screen w-screen max-w-7xl justify-center border-t-2 border-black p-7 md:p-0"
+      className="flex flex-col min-h-screen w-screen md:max-w-7xl max-w-sm transition-all justify-center items-center border-t border-black p-7 md:p-0"
     >
-      <h1 className="text-8xl font-medium mb-16">Projects</h1>
+      <h1 className=" text-7xl font-medium mb-16">Projects</h1>
       <h1>
         Here you can find some projects I had the fortune to have participated
         composing and producing the music for.

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MusicCampaigns = (props: any) => {
   return (
-    <a href={`/projects/${props.item.id}`} className="">
+    <a href={`/projects/${props.item.id}`}>
       <div className="">
         <Image
           alt=""
