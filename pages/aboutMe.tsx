@@ -6,6 +6,7 @@ const AboutMe = () => {
     <div className="flex flex-col min-h-screen w-screen m-auto justify-center items-center bg-amber-50">
       <div className="flex md:flex-row flex-col m-auto max-w-7xl w-screen items-center justify-center min-h-screen md:mt-0 mt-10 p-7">
         <div className="block lg:w-[5000px] md:w-[6000px] w-[80vw] md:pr-10">
+          <h1 className="text-7xl font-medium">About me</h1>
           <Image
             src={"/assets/profile-2.JPG"}
             width={500}
@@ -16,10 +17,13 @@ const AboutMe = () => {
         </div>
 
         <div className="flex flex-col md:p-0 p-2">
-          <h1 className="text-xl font-medium mb-5">
-            Greetings <br /> My names is <br />{" "}
-            <span className="text-2xl">Jorge Delgadillo</span>
+          <h1 className="text-xl font-medium">
+            <span className="text-4xl">
+              Jorge <br className="my-5" />
+              Delgadillo
+            </span>
           </h1>
+          <div className="border border-black my-7"></div>
           <p className="font-extralight text-justify">
             I'm from the city of{" "}
             <span className="font-medium">Guadalajara, </span>
