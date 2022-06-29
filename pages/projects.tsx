@@ -26,9 +26,9 @@ function Projects() {
           delay: i * 0.1,
         }}
         variants={imageAnimate}
-        className="py-16 p-10 text-left transition-all"
+        className="py-16 p-10 text-left transition-all "
       >
-        <div className="hover:scale-[105%] transition-all">
+        <div className="hover:scale-[103%] transition-all">
           <MusicCampaigns key={item.id} item={item} />
         </div>
       </motion.div>
@@ -41,8 +41,8 @@ function Projects() {
         projects
       </h1>
       <h1>
-        Here are some projects I had the fortune to have participated composing
-        and producing the music for.
+        Here you can find some projects I had the fortune to have participated
+        composing and producing the music for.
       </h1>
       <div className="flex md:flex-row flex-col">{posters}</div>
     </div>
