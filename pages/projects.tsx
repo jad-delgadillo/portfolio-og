@@ -5,10 +5,10 @@ import data from "../src/dataCamapigns";
 import { motion, Variants } from "framer-motion";
 
 const imageAnimate = {
-  offscreen: { y: 50, opacity: 0 },
+  offscreen: { x: -50, opacity: 0 },
   onscreen: {
     opacity: 1,
-    y: 0,
+    x: 0,
   },
 };
 
@@ -18,11 +18,10 @@ function Projects() {
       <motion.div
         initial={"offscreen"}
         whileInView={"onscreen"}
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: false, amount: 0.7 }}
         transition={{
-          duration: 0.05,
-          type: "spring",
-          bounce: 1,
+          duration: 0.1,
+
           delay: i * 0.1,
         }}
         variants={imageAnimate}
@@ -37,9 +36,7 @@ function Projects() {
 
   return (
     <div className="flex flex-col min-h-screen w-screen max-w-7xl justify-center border-t-2 border-black p-7 md:p-0">
-      <h1 className="text-5xl font-medium mb-16 underline-offset-3 underline">
-        projects
-      </h1>
+      <h1 className="text-8xl font-medium mb-16">Projects</h1>
       <h1>
         Here you can find some projects I had the fortune to have participated
         composing and producing the music for.
