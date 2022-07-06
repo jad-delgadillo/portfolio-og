@@ -6,7 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "framer-motion": "^6.3.16",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",

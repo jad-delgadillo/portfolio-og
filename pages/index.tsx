@@ -1,21 +1,16 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-
+import Container from "../components/Container";
 import AboutMe from "./aboutMe";
 import Landing from "./landing";
-import Projects from "./projects";
+import MediaProjects from "./projects/MediaProjects";
 
-const Home: NextPage = () => {
+const Home = (props: any) => {
   return (
-    <div className="flex flex-col  min-h-screen w-screen m-auto justify-center items-center bg-amber-50">
-      <Landing />
-      <section id="projects_section">
-        <Projects />
-      </section>
-      <section id="about_me">
+    <div>
+      <Container>
+        <Landing />
+        <MediaProjects />
         <AboutMe />
-      </section>
+      </Container>
     </div>
   );
 };

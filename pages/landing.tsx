@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col max-w-7xl min-h-screen md:items-center md:justify-center pt-32 md:pt-0 m-auto">
+    <div className="flex flex-col md:max-w-7xl max-w-md min-h-screen md:items-center md:justify-center pt-32 md:pt-0 m-auto border-b border-black">
       <div className="flex flex-col md:justify-start w-screen max-w-7xl ">
         {/* <video
           autoPlay
@@ -61,7 +61,7 @@ const Landing = () => {
             <span className="absolute hidden md:flex w-0 h-full group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full md:hover:text-white hover:text-indigo-500 transition-all ease-out duration-300 ">
               {" "}
-              I'm a Storyteller{" "}
+              I'm a storyteller{" "}
             </span>
           </a>
           <span className="relative group-hover:w-full  group hover:text-red-400 transition-all ease-out duration-300">

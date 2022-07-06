@@ -8,9 +8,9 @@ const AboutMe = () => {
         <div className="block lg:w-[5000px] md:w-[6000px] w-[80vw] md:pr-10">
           <h1 className="text-7xl font-medium pb-2">About me</h1>
           <Image
-            src={"/assets/profile-2.JPG"}
+            src={"/assets/Profile-Greece.jpg"}
             width={500}
-            height={700}
+            height={500}
             layout={"responsive"}
             className="rounded-xl"
           />
@@ -18,8 +18,8 @@ const AboutMe = () => {
 
         <div className="flex flex-col md:p-0 p-2">
           <h1 className="text-xl font-medium">
-            <span className="text-4xl">
-              Jorge <br className="my-5" />
+            <span className="text-5xl font-medium">
+              Jorge <br className="" />
               Delgadillo
             </span>
           </h1>
@@ -35,12 +35,7 @@ const AboutMe = () => {
             erat eros laoreet metus, maximus laoreet dolor elit ac est.
             Phasellus luctus sollicitudin hendrerit. Cras blandit dui sed
             dignissim porttitor. Quisque et vulputate nibh, bibendum commodo
-            lectus. Proin sodales non odio et egestas. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Vivamus laoreet aliquet venenatis. In interdum sapien
-            mauris. In vitae metus nulla. Donec est tellus, molestie quis
-            scelerisque a, facilisis sit amet justo. Etiam et metus ac justo
-            auctor ultricies.
+            lectus.
           </p>
         </div>
       </div>

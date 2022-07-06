@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/customCursor.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/customCursor.js", "pages/projects/[id].js", "components/Campaigns.tsx"],
   "exclude": ["node_modules"]
 }

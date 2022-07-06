@@ -5,7 +5,6 @@ export default [
     title: "Hostile Planet",
     description: "Worldwide Broadcast Campaign",
     year: "2019",
-    link: "#_",
   },
   {
     id: 2,
