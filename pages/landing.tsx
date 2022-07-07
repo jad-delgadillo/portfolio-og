@@ -38,7 +38,7 @@ const Landing = () => {
           <div className=" flex flex-col">
             <a href="#projects_section" className="relative group">
               <span className="absolute w-0 h-[1px] top-5 group-hover:w-16 transition-all ease-out duration-300 bg-black"></span>
-              <span className="relative group-hover:w-full transition-all ease-out duration-300 ">
+              <span className="relative group-hover:w-full transition-all ease-out duration-300">
                 projects
               </span>
             </a>
@@ -58,20 +58,22 @@ const Landing = () => {
         </nav>
         <h1 className="md:text-[5vw] text-[9vw] text-left font-medium cursor-default p-7 md:p-0">
           <a href="#_" className="relative group">
-            <span className="absolute hidden md:flex w-0 h-full group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
+            <span className="absolute hidden md:flex w-0 h-[120%] group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
             <span className="relative group-hover:w-full md:hover:text-white hover:text-indigo-500 transition-all ease-out duration-300 ">
               {" "}
-              I'm a storyteller{" "}
+              Hello, I'm Jorge{" "}
             </span>
           </a>
+          <br />
           <span className="relative group-hover:w-full  group hover:text-red-400 transition-all ease-out duration-300">
             {" "}
-            that loves to
+            and I love to
             <span className="relative group-hover:text-red-500 transition-all ease-out duration-300">
               {" "}
               code
             </span>{" "}
           </span>{" "}
+          <br />
           <span className="relative group-hover:w-full group hover:text-amber-300 hover:underline-offset-2 transition-all ease-out duration-300">
             {" "}
             to
@@ -84,6 +86,7 @@ const Landing = () => {
               myself
             </span>{" "}
           </span>{" "}
+          <br />
           <span className="relative group group-hover:w-full hover:text-blue-400 transition-all ease-out duration-300">
             {" "}
             and{" "}

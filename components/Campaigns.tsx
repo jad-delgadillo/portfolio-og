@@ -4,9 +4,9 @@ import React from "react";
 
 export default function Campaigns({ description, id, title, thumbnail }: any) {
   return (
-    <div className="p-7 cursor-pointer">
+    <div className="p-5">
       <Link href={`/projects/MediaProjects/${id}`} passHref scroll={false}>
-        <div className=" hover:scale-[103%] transition-all ">
+        <div className=" hover:scale-[103%] transition-all cursor-pointer hover:shadow-xl rounded-xl p-2 hover:ring-1 ring-indigo-200 hover:bg-zinc-50">
           <Image
             src={thumbnail}
             alt={title}

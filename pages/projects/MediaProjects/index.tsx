@@ -15,8 +15,8 @@ export default function MediaProjects() {
           <div className="text-center">
             <a className="relative group  hover:tracking-widest">
               <h1 className="text-7xl cursor-default font-medium">
-                <span className="absolute hidden md:flex w-0 h-[120%] group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
-                <p className="relative group-hover:w-full  md:hover:text-white hover:text-indigo-500 transition-all ease-out duration-300 ">
+                <span className="absolute hidden md:flex w-0 h-[115%] group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
+                <p className="relative group-hover:w-full  md:hover:text-indigo-500 hover:text-indigo-500 transition-all ease-out duration-300 ">
                   {" "}
                   Media Projects{" "}
                 </p>
