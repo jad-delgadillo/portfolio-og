@@ -12,21 +12,21 @@ export default function MediaProjects() {
     <div>
       <Container>
         <div className="flex flex-col items-center justify-center max-w-7xl p-7">
-          <div className="text-center">
-            <a className="relative group  hover:tracking-widest">
-              <h1 className="text-7xl cursor-default font-medium">
-                <span className="absolute hidden md:flex w-0 h-[115%] group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
-                <p className="relative group-hover:w-full  md:hover:text-indigo-500 hover:text-indigo-500 transition-all ease-out duration-300 ">
-                  {" "}
-                  Media Projects{" "}
-                </p>
-              </h1>
+          <h1 className="text-7xl cursor-default font-medium">
+            <a href="#_" className="relative group">
+              <span className="absolute hidden md:flex w-0 h-[100%] group-hover:w-full transition-all ease-out duration-300 bg-black"></span>
+              <span className="relative group-hover:w-full md:hover:text-white hover:text-indigo-500 transition-all ease-out duration-300 ">
+                {" "}
+                Music Projects{" "}
+              </span>
             </a>
-            <p className="py-10 tracking-wider">
-              I had the fortune to work on this media campaigns doing the
-              composition and production of the music.
-            </p>
-          </div>
+          </h1>
+
+          <p className="py-10 tracking-wider">
+            I had the fortune to work on this media campaigns doing the
+            composition and production of the music.
+          </p>
+
           <div className="flex flex-col md:flex-row">
             <Campaign
               id="HostilePlanet"
